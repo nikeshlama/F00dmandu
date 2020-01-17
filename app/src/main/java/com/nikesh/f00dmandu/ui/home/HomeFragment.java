@@ -87,7 +87,6 @@ public class HomeFragment extends Fragment {
 
 
         recyclerView=view.findViewById(R.id.recyclerView);
-        recyclerView_a=view.findViewById(R.id.recyclerView_a);
         recyclerView_b=view.findViewById(R.id.recyclerView_b);
         recyclerView_c=view.findViewById(R.id.recyclerView_c);
         recyclerView_d=view.findViewById(R.id.recyclerView_d);
