@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.SignupActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/CircleImg"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/nopic"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/etFname"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:hint="First Name"
+        android:layout_marginTop="50dp"
+        android:inputType="text"
+        android:background="@drawable/et_style"
+        android:paddingLeft="20sp"/>
+
+    <EditText
+        android:id="@+id/etLname"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:hint="Last Name"
+        android:background="@drawable/et_style"
+        android:inputType="text"
+        android:paddingLeft="20sp"/>
+
+    <EditText
+        android:id="@+id/etPhnum"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:hint="Phone Number"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:background="@drawable/et_style"
+        android:paddingLeft="20sp"/>
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:hint="Username"
+        android:background="@drawable/et_style"
+        android:inputType="text"
+        android:paddingLeft="20sp"/>
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:hint="Password"
+        android:background="@drawable/et_style"
+        android:inputType="textPassword"
+        android:paddingLeft="20sp"/>
+
+    <EditText
+        android:id="@+id/etCpass"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:hint="Confirm Passeord"
+        android:background="@drawable/et_style"
+        android:inputType="textPassword"
+        android:paddingLeft="20sp"/>
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="SIGN UP"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"
+        android:background="@drawable/btn_style"
+        android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+</ScrollView>
